@@ -1,0 +1,45 @@
+.button-container{
+    height: 5vh;
+    min-height: 20px;
+    padding: 5px;
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgb(33, 33, 75);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-container:hover{
+    background-color: rgb(87, 42, 138);
+}
+
+.operador{
+    background-color: rgb(46, 123, 173);
+}
+.operador:hover{
+    background-color: rgb(29, 77, 109);
+}
+
+.borrar{
+    background-color: rgb(97, 8, 8);
+    margin-bottom: 10px;
+}
+.borrar:hover{
+    background-color: rgb(63, 18, 18);
+}
+
+.igual{
+    background-color: rgb(167, 75, 39);
+}
+.igual:hover{
+    background-color: rgb(110, 51, 27);
+}
+

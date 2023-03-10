@@ -1,0 +1,26 @@
+@font-face{
+    font-family:'digital-clock';
+    src: url('digital-7.ttf');
+   }
+
+.input{
+    height: 8vh;
+    min-height: 50px;
+    width: 85%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'digital-clock';
+    font-weight: 500;
+    font-size: 50px;
+    background-color: gainsboro;
+    color: rgb(82, 82, 82);
+    padding: 10px;
+    padding-right: 20px;
+    border: 2px solid gray;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgb(145, 145, 145) inset;
+}
